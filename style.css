@@ -1,0 +1,23 @@
+html {
+    color-scheme: dark;
+}
+
+#calculator {
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: red;
+    max-width: 400px;
+    aspect-ratio: 2/3;
+}
+#calculator textarea {
+    grid-column: span 4;
+    font-size: 4rem;
+    resize: none;
+}
+#calculator button {
+    padding: 10px 15px;
+    background-color: rgb(49, 49, 49);
+    font-size: 1.3rem;
+}
