@@ -7,9 +7,9 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    background-color: red;
     max-width: 400px;
     aspect-ratio: 2/3;
+    border: 2px solid rgba(255, 68, 0, 0.507);
 }
 #calculator textarea {
     grid-column: span 4;
@@ -20,4 +20,12 @@ html {
     padding: 10px 15px;
     background-color: rgb(49, 49, 49);
     font-size: 1.3rem;
+}
+
+#calculator button:active {
+    color: rgb(194, 59, 10);
+}
+
+#calculator .digit {
+    font-size: 1.6rem;
 }
