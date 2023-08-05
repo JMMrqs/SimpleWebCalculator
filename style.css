@@ -3,18 +3,19 @@ html {
 }
 
 #calculator {
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    max-width: 400px;
-    aspect-ratio: 2/3;
+    max-width: 360px;
+    height: 550px;
     border: 2px solid rgba(255, 68, 0, 0.507);
 }
 #calculator textarea {
     grid-column: span 4;
     font-size: 4rem;
     resize: none;
+    height: 150px;
 }
 #calculator button {
     padding: 10px 15px;
